@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Portfolio Website
 
 This repository contains the code for my portfolio website. The website is built using Flask, a web framework in Python, and is hosted on PythonAnywhere. The user interface is designed with a custom HTML template and styled using CSS, with JavaScript being used for client-side interactivity.
@@ -47,12 +46,4 @@ The submit_form function is called when a POST request is made to the /submit_fo
 ## Future work
 - Apply more features between front end-back end interaction.
 - Apply Machine Learning & Deep learning features on the website. 
-=======
-## -- ON GOING --  
 
----
-
-Building up a portfolio website with Flask and host by python anywhere. 
-
-You may preview the website here: http://liqianzhang.pythonanywhere.com/
->>>>>>> 67979c9d3b2295f38e8a46d771ec77c916ccc6ba
