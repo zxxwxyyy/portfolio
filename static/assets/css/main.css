@@ -22,20 +22,39 @@ section, summary, time, mark, audio, video {
 	padding: 0;
 	border: 0;
 	font-size: 100%;
-	font: inherit;
+	font: 'Roboto', sans-serif;
 	vertical-align: baseline;}
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
 
-.youtubeVid{
-    display:block;
-    width=50%;
-    margin-bottom:50px;
-    margin-left:auto;
-    margin-right:auto;
-    border-radius: 5px
+.youtubeVid {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%; /* for 16:9 aspect ratio change value as per your requirement */
+    overflow: hidden;
+    border-radius: 5px;
+    margin-bottom: 50px;
+}
+
+.youtubeVid iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.youtubeVid video {
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: fill;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
 }
 
 body {
@@ -108,7 +127,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #ffffff;
+		background: #121111;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -125,7 +144,7 @@ input, select, textarea {
 /* Type */
 
 	body, input, select, textarea {
-		color: #383838;
+		color: #ffffff;
 		font-family:'Roboto', sans-serif;
 		font-size: 16pt;
 		font-weight: 300;
@@ -2998,7 +3017,7 @@ input, select, textarea {
 		max-width: 80%;
 		height: 100%;
 		-webkit-overflow-scrolling: touch;
-		background: #585858;
+		background: #181818;
 		color: #ffffff;
 		cursor: default;
 		visibility: hidden;
@@ -3176,7 +3195,7 @@ input, select, textarea {
 
 	#footer {
 		padding: 5em 0 6em 0 ;
-		background-color: #f6f6f6;
+		background-color: #181818;
 	}
 
 		#footer > .inner {
