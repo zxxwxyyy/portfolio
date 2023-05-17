@@ -1,6 +1,6 @@
 # Portfolio Website
 
-This repository contains the code for my portfolio website. The website is built using Flask, a web framework in Python, and is hosted on PythonAnywhere. The user interface is designed with a custom HTML template and styled using CSS, with JavaScript being used for client-side interactivity.
+This repository contains the code for my portfolio website. The website is built using Flask, a web framework in Python, and is hosted on PythonAnywhere. The user interface is designed with a [HTML template](https://html5up.net/phantom) and styled using CSS, with JavaScript being used for client-side interactivity.
 
 [View the website here](http://liqianzhang.pythonanywhere.com/index.html)
 
